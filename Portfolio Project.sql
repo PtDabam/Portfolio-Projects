@@ -1,4 +1,5 @@
 Cleaning data via SQL queries
+Link to he dataset: https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx
 ------------------------------------------------------------------------------------------------------------------------------------------
 --Using the CONVERT() function to change the SalaDate column data type to the date type
 SELECT SaleDate,CONVERT(Date,SaleDate) FROM [Portfolio Project].[dbo].[Portfolio Project]
